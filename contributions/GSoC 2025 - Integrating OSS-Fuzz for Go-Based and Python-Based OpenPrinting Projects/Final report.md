@@ -9,7 +9,7 @@
 
 **Useful Links**:
 
-* [Project Page](need to add link)
+* [Project Page](https://summerofcode.withgoogle.com/programs/2025/projects/rBWHXaha)
 * [Source Code for Fuzz Harnesses](https://github.com/OpenPrinting/fuzzing)
 * [OSS-Fuzz](https://github.com/google/oss-fuzz) Projects
 
@@ -23,7 +23,7 @@
 
 ## Project Details
 
-This project extends OpenPrinting’s fuzz testing efforts by targeting components written in **Go** and **Python**, complementing the prior work on C/C++ projects. The focus was on **goipp**, **ipp-usb**, **pyppd**, and **pycups**, all of which are widely used in driverless printing and CUPS-based workflows.
+This project extends OpenPrinting’s fuzz testing efforts by targeting components written in **Go** and **Python**, complementing the [prior work on C/C++ projects](../GSoC%202024%20-%20Integrating%20C‐based%20OpenPrinting%20Projects%20in%20OSS‐Fuzz%20Testing/Final%20report.md). The focus was on **goipp**, **ipp-usb**, **pyppd**, and **pycups**, all of which are widely used in driverless printing and CUPS-based workflows.
 
 The goal was to write fuzzing harnesses, integrate them into the OSS-Fuzz infrastructure, and address the unique challenges of testing language bindings and hardware-dependent code.
 
